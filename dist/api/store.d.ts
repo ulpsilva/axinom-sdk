@@ -14,3 +14,4 @@ export declare class Store {
         }>;
     }) => Promise<any>;
 }
+export declare const store: Store;

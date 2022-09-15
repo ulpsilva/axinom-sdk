@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Store = void 0;
+exports.store = exports.Store = void 0;
 const constants_1 = require("../constants");
 const request_1 = __importDefault(require("./request"));
 /**
@@ -30,4 +30,5 @@ class Store {
     }
 }
 exports.Store = Store;
+exports.store = new Store();
 //# sourceMappingURL=store.js.map
