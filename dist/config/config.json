@@ -1,6 +1,6 @@
 {
     "development": {
-        "BASE_URL": "http://localhost:3001"
+        "BASE_URL": "receiver:3001"
     },
     "production": {
         "BASE_URL": ""
