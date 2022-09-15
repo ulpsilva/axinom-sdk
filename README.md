@@ -4,10 +4,10 @@ This is Axinom Software Development Kit
 
 ## Usage
 
-`npm install --save git+https://github.com/axinom-sdk#master`
+`npm install --save git+https://github.com/ulpsilva/axinom-sdk#master`
 
 ```js
-import { db } from '@axinom/sdk';
+import { Api } from '@axinom/sdk';
 ```
 
 ## Development

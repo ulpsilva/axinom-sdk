@@ -22,3 +22,5 @@ export class Store {
     return await BaseRequest.post(this.url, data);
   };
 }
+
+export const store = new Store();
